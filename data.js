@@ -17,8 +17,7 @@ const KINDS = {
   plan: "Weekly planning"
 };
 
-/* Lectures (Group 94). venue: null shows "Venue to be confirmed".
-   confirm: true shows a "confirm" badge for times copied from a sheet with unclear headings. */
+
 const CLASSES = [
   { day: 1, course: "mat", start: t(13, 30), end: t(15, 30), venue: "LT20" },
   { day: 2, course: "sta", start: t(6, 30), end: t(8, 30), venue: "LT20", confirm: true },
