@@ -1,9 +1,4 @@
-/*
-  EDIT THIS FILE to change your timetable.
-  Times are minutes after midnight: 13:30 = 13 * 60 + 30 = 810.
-  Use t(13, 30) below instead of doing the sum yourself.
-  Day numbers: 0 Sunday, 1 Monday, 2 Tuesday, 3 Wednesday, 4 Thursday, 5 Friday, 6 Saturday.
-*/
+
 const t = (h, m = 0) => h * 60 + m;
 
 const COURSES = {
