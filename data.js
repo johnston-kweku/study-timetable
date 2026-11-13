@@ -30,7 +30,7 @@ const CLASSES = [
   { day: 5, course: "csc", start: t(17, 30), end: t(19, 30), venue: "SWLT06" }
 ];
 
-/* Personal study blocks. kind is a course key (mat, sta, ...) or asg / proj / plan. */
+
 const STUDY = [
   { day: 1, kind: "mat", start: t(20), end: t(21, 30), title: "MAT101",
     how: "Review today's lecture, then work practice problems on the same unit." },
