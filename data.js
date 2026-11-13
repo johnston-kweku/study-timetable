@@ -58,7 +58,7 @@ const STUDY = [
     how: "Check deadlines and list the three things that matter most." }
 ];
 
-/* One line of context under each day name, plus an optional tip, */
+
 const DAYS = {
   1: { name: "Monday", note: "Gym: Lower A",
        tip: "STA101 is at 6:30 AM tomorrow. Finish by 9:30 PM and sleep early." },
